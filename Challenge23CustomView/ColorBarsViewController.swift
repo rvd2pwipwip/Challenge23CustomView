@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ColorBarsViewController.swift
 //  Challenge23CustomView
 //
 //  Created by Herve Desrosiers on 2020-02-25.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ColorBarsViewController: UIViewController {
+    
+    var colorBarView = ColorBarView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+//        view.addSubview(TestView())
+        view.addSubview(ColorBarView())
     }
-
-
 }
-
